@@ -1,11 +1,14 @@
 import React from "react";
+import { ThemeProvider } from "@mui/material";
+// Theme
 import Containers from "./frontEnd/Containers";
+import { theme } from "./frontEnd/mui/theme";
 
 const AppContainer = () => {
   return (
-    <div>
+    <ThemeProvider theme={theme}>
       <Containers />
-    </div>
+    </ThemeProvider>
   );
 };
 
