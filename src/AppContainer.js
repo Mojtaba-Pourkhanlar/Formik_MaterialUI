@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Containers from "./frontEnd/Containers";
 
 const AppContainer = () => {
   return (
-    <div>AppContainer</div>
-  )
-}
+    <div>
+      <Containers />
+    </div>
+  );
+};
 
-export default AppContainer
+export default AppContainer;
