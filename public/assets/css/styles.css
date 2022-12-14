@@ -14,20 +14,3 @@ body {
   margin: 0;
   padding: 0;
 }
-
-html::-webkit-scrollbar {
-  width: 0.7rem;
-}
-
-html::-webkit-scrollbar-track {
-  background: #6c757d;
-}
-
-html::-webkit-scrollbar-thumb {
-  background: #1e2125;
-  border-radius: 10px;
-}
-html::-webkit-scrollbar-thumb:hover {
-  background: #8b0202;
-  border-radius: 0px;
-}
